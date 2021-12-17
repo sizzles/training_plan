@@ -1,14 +1,8 @@
 from __future__ import absolute_import
-import sys
-import OpenGL.GL as gl
-from imgui.integrations.pygame import PygameRenderer
-import imgui.core as core
 import pandas as pd
 import datetime
 import json
-import typing
 from utils import get_default_start_end_date
-
 
 class TrainingPlan:
     
